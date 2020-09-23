@@ -119,7 +119,6 @@ Task 7
 Task 8
 👉 Go Nuts! See what else you can do, use your imagination, combine with what you've learnt in the last couple of days! 🤯.
 */
-
 {
   for (const t of ["a", "b", "c", "d", "e"]) {
     const p = document.createElement("p");

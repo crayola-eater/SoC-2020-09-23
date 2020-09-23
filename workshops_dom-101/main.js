@@ -102,16 +102,18 @@ Task 7
 👉 Write a function that sets the h1's innerText to be whatever is in the input field.
 */
 
-const input = document.createElement("input");
-const button = document.createElement("button");
-button.innerText = "Change h1";
+{
+  const input = document.createElement("input");
+  const button = document.createElement("button");
+  button.innerText = "Change h1";
 
-button.addEventListener("click", () => {
-  const h1 = document.querySelector("h1");
-  h1.innerText = input.value;
-});
+  button.addEventListener("click", () => {
+    const h1 = document.querySelector("h1");
+    h1.innerText = input.value;
+  });
 
-document.body.append(input, button);
+  document.body.append(input, button);
+}
 
 /*
 Task 8
